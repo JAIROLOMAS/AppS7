@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="AppS7.Login">
+    <ContentPage.Content>
+        <StackLayout>
+            <Label Text="Ventana de Login" FontSize="Medium"/>
+
+            <Entry x:Name="txtUsuario" Placeholder="Ingrese el usuario "/>
+            <Entry x:Name="txtContrasenia" Placeholder="Ingrese la contrasenia " IsPassword="True"/>
+            <Button x:Name="btnIniciar" Text="Iniciar Sesion" Clicked="btnIniciar_Clicked"/>
+            <Button x:Name="btnRegistrar" Text="Registrar" Clicked="btnRegistrar_Clicked"/>
+
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
