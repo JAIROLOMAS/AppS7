@@ -47,6 +47,7 @@ namespace AppS7
                 ResultadoUpdate = Update(db, Nombre.Text, Usuario.Text, Contrasenia.Text, IdSeleccionado);
                 
                 DisplayAlert("Alerta", "Se Actualizo Correctamente", "ok");
+            
                 
             }
             catch (Exception ex)
