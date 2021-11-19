@@ -44,7 +44,7 @@ namespace AppS7
             {
                 var documentPath = Path.Combine(System.Environment.GetFolderPath(System.Environment.SpecialFolder.MyDocuments), "uisrael.db3");
                 var db = new SQLiteConnection(documentPath);
-                ResultadoUpdate = Update(db, Nombre.Text, Usuario.Text, Contrasenia.Text, IdSeleccionado);
+                ResultadoUpdate = Update(db, Nombre1.Text, Usuario.Text, Contrasenia.Text, IdSeleccionado);
                 
                 DisplayAlert("Alerta", "Se Actualizo Correctamente", "ok");
             
